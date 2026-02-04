@@ -6,6 +6,5 @@ def backtrack(n):
     backtrack(n+1)
     print(n-2)
 
-    
 
 backtrack(1)
