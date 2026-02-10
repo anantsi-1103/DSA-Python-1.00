@@ -15,7 +15,7 @@ def quick_sort(arr):
     return quick_sort(left) + [pivot] + quick_sort(right)
 
 
-arr = [10,7,8,9,1,5]
+arr = [25, 36, 12, 4, 5, 16, 58, 54, 24, 16, 9, 65, 78]
 
 print("Before Sorted : ", arr)
 sorted_arr = quick_sort(arr)
