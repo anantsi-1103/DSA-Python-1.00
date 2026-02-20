@@ -1,7 +1,6 @@
 import sys
 
 def dijkstra(graph, source):
-    
     # Step 1: Initialize distances with maximum value
     dist = {node: sys.maxsize for node in graph}
     dist[source] = 0
